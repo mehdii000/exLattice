@@ -41,5 +41,9 @@ The model currently achieves a steady decrease in loss over 10 epochs on the MNI
 - [ ] Support for saving/loading trained models to `.models` files.
 - [ ] Implement an evaluation mode to calculate accuracy % on a test set.
 
+## AI Notice
+- Antigravity and Gemini were used to assist with fixing memory leaks, writing this README and loading the dataset.
+- But the logic and mathematics implementation of the Backpropagation algorithm and the Neural Network structure were completly deduced and implemented by me.
+
 ---
 *Disclaimer: This project is for educational purposes only. If you need speed, use a GPU-accelerated framework!*
