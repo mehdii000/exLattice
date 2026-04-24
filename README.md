@@ -32,13 +32,11 @@ make
 bin/app
 ```
 
-## 📈 Learning Progress
-
-The model currently achieves a steady decrease in loss over 10 epochs on the MNIST dataset:
-- **Epoch 0 Loss**: ~0.62
-- **Epoch 9 Loss**: ~0.18
+## 📈 Benchmarks
+![benchmarks](./imgs/Benchmark.png)
 
 ## 📝 Roadmap & Future Improvements
+- [ ] Implement Matrix Multiplication to reduce computation time on both forward and backward passes.
 - [ ] Implement Cross-Entropy Loss for better classification performance.
 - [ ] Add Softmax activation to the output layer.
 - [ ] Add Gradient Clipping to improve stability with higher learning rates.
