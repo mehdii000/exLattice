@@ -34,6 +34,8 @@ bin/app
 
 ## 📈 Benchmarks
 ![benchmarks](./imgs/Benchmark.png)
+Note: When i decreased the batch size from to 16, in 3 epochs i reached 93% accuracy.
+Explanation: Decreasing the batch size increases the noise in the gradient descent, which can help the network escape local minima and find a better global minimum.
 
 ## 📝 Roadmap & Future Improvements
 - [ ] Implement Matrix Multiplication to reduce computation time on both forward and backward passes.
